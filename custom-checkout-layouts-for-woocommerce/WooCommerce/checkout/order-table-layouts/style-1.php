@@ -42,7 +42,7 @@
 		<div class="wrapper_qty">
 		<?php
 		
-		if(isset($checkout_options['cclw_skip_qty']) && $checkout_options['cclw_skip_qty'] == 'yes')
+		if(isset($checkout_options['skip_qty']) && $checkout_options['skip_qty'] == 'yes')
 	    {	
 		   echo $cart_item['quantity'];
 		}

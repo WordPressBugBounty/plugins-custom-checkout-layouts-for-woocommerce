@@ -22,11 +22,11 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 // filter hook for include new pages inside the payment method
 ?>
 <?php 
-$layout = cmb2_get_option( 'custom_checkout_settings','cclw_checkout_layouts');
+$options = get_option( 'cclw_general_settings' );
+$layout = 'three-column-layout'; // default
 
-if($layout == '')
-{
-$layout = 'three-column-layout';	
+if ( is_array( $options ) && ! empty( $options['checkout_layouts'] ) ) {
+    $layout = $options['checkout_layouts'];
 }
 
 ?>

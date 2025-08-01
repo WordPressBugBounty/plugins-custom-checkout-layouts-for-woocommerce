@@ -18,12 +18,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<?php $checkout_options = get_option( 'custom_checkout_settings' );?>
+<?php $checkout_options = get_option( 'cclw_general_settings' );?>
 <div class="shop_table woocommerce-checkout-review-order-table">
    <?php
-	if(isset($checkout_options['cclw_checkout_ordertable']) && $checkout_options['cclw_checkout_ordertable'] != '')
+	if(isset($checkout_options['checkout_ordertable']) && $checkout_options['checkout_ordertable'] != '')
 	{
-		include_once CCLW_PLUGIN_DIR . 'WooCommerce/checkout/order-table-layouts/'.$checkout_options['cclw_checkout_ordertable'].'.php';
+		include_once CCLW_PLUGIN_DIR . 'WooCommerce/checkout/order-table-layouts/'.$checkout_options['checkout_ordertable'].'.php';
 	}
 	else
 	{

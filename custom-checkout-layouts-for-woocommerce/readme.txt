@@ -2,9 +2,9 @@
 Contributors: coolcoders
 Tags: checkout,direct checkout,woocommerce checkout,one page checkout,single page checkout, woocommerce one page checkout,one page checkout and layouts,one page checkout ajax, multi step checkout
 Requires at least: 4.5
-Tested up to: 6.3.2
+Tested up to: 6.8
 Requires PHP: 5.6
-Stable tag: 4.0.0
+Stable tag: 4.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -82,6 +82,12 @@ To go to setting panel in backend follow Dashboard->Checkout layouts.
 
 
 == Changelog == 
+<h2> Version 4.1.0| 30 july 2025</h2>
+<pre>
+ Improvement: Compatibility with woocommerce and wordpress .
+ Improvement: Removed older Billing and shipping fields and adjust header style.
+ Improvement: Removed cmb2 fields and converting to wordpress settings fields to reduce dependency.
+</pre>
 <h2> Version 4.0.0| 22 Nov 2023 </h2>
 <pre>
  Improvement: Removed Replaced Text section.
