@@ -164,7 +164,9 @@ form#cclw_pro_version .submit {
     margin-top: 10px;
     background: #fff;
 }
-
+.cclw_form_settings_wrap h2.nav-tab-wrapper{
+    width: 60%;
+}
 /** Pro page css */
 .wrap.pro_page_design th {
     width: 0px;

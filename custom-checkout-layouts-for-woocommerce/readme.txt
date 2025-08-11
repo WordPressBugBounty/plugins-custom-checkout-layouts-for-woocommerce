@@ -4,7 +4,7 @@ Tags: checkout,direct checkout,woocommerce checkout,one page checkout,single pag
 Requires at least: 4.5
 Tested up to: 6.8
 Requires PHP: 5.6
-Stable tag: 4.1.1
+Stable tag: 4.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -82,11 +82,11 @@ To go to setting panel in backend follow Dashboard->Checkout layouts.
 
 
 == Changelog == 
-<h2> Version 4.1.1| 04 Aug 2025</h2>
+<h2> Version 4.1.2| 11 aug 2025</h2>
 <pre>
- Improvement: error fix for version 4.1.0 .
+ Improvement: Error with woocomerce tabs removed .
 </pre>
-<h2> Version 4.1.0| 30 july 2025</h2>
+<h2> Version 4.1.1| 30 july 2025</h2>
 <pre>
  Improvement: Compatibility with woocommerce and wordpress .
  Improvement: Removed older Billing and shipping fields and adjust header style.

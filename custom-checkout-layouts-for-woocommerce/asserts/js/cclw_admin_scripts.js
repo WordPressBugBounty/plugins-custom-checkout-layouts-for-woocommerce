@@ -51,7 +51,7 @@
 
 	/** Customize checkout page tabs  */
 	document.addEventListener('DOMContentLoaded', function () {
-		const tabs = document.querySelectorAll('.nav-tab');
+		const tabs = document.querySelectorAll('.cclw_form_settings_wrap .nav-tab');
 		const billing = document.getElementById('cclw_billing_fields');
 		const shipping = document.getElementById('cclw_shipping_fields');
 
@@ -64,7 +64,7 @@
 				if (this.dataset.tab === 'billing') {
 					billing.style.display = 'block';
 					shipping.style.display = 'none';
-				} else {
+				} else if (this.dataset.tab === 'shipping') {
 					billing.style.display = 'none';
 					shipping.style.display = 'block';
 				}
