@@ -181,3 +181,14 @@ form#cclw_pro_version .submit {
     width: 90%;
     padding: 0.6em 1em !important;
 }
+/** Notice css */
+.cclw_notice {
+    padding: 10px;
+    background: #fffbe5;
+    border-left: 4px solid #ffba00; 
+    margin: 15px 0px;
+}
+.cclw_notice p{
+    font-size: 14px;
+    margin: 5px 0px;
+}

@@ -5,17 +5,22 @@ function cclw_render_settings_page() {
         wp_die(__('You do not have sufficient permissions to access this page.'));
     }
     ?>
-   <div class="wrap cclw_form_settings_wrap">
-        <h1>Checkout Layouts</h1>
-        <form method="post" action="options.php">
-            <?php
-            settings_fields('cclw_general_settings_group'); //  settings page group name
-            do_settings_sections('cclw_general_settings');  //  page slug
-            submit_button();
-            ?>
-        </form>
-    </div>
-    <?php
+<div class="wrap cclw_form_settings_wrap">
+	<h1>Checkout Layouts</h1>
+	<form method="post" action="options.php">
+		<?php
+		settings_fields('cclw_general_settings_group'); //  settings page group name
+		do_settings_sections('cclw_general_settings');  //  page slug
+		?>
+		<div class="cclw_notice">
+			<p><strong>Note:</strong> This plugin uses the default WooCommerce checkout shortcode (<code>[woocommerce_checkout]</code>) and does not support Gutenberg checkout blocks.</p>
+		</div>
+		<?php
+		submit_button();
+		?>
+	</form>
+</div>
+<?php
 }
 
 function cclw_select_checkout_layouts_cb() {
@@ -79,5 +84,3 @@ function cclw_radio_order_notes_cb() {
     <p class="description">Select "yes" to hide the Order Notes section from checkout.</p>
     <?php
 }
-
-			?>

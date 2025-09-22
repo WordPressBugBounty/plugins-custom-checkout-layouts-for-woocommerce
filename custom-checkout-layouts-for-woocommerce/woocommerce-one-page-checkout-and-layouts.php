@@ -5,7 +5,7 @@ Plugin URI: https://wordpress.org/plugins/custom-checkout-layouts-for-woocommerc
 Description: This plugin is designed to Combine Cart and Checkout process which gives users a faster checkout experience, with less interruption.
 Author: BluePlugins
 Author URI: http://blueplugins.com
-Version: 4.1.2
+Version: 4.1.3
 License:GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Domain Path: /languages
@@ -19,7 +19,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
  
 
-define( 'CCLW_VERSION', '4.1.2' );
+define( 'CCLW_VERSION', '4.1.3' );
 define('CCLW_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 define('CCLW_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
@@ -88,9 +88,7 @@ if( !class_exists( 'CclwCheckout' ) )
 			 require_once CCLW_PLUGIN_DIR . 'includes/admin/cclw_advance_settings.php'; /*renders advance settings page*/
 			 require_once CCLW_PLUGIN_DIR . 'includes/admin/cclw_customize_checkout_fields.php'; /*renders customize checkout fields page*/
 			 require_once CCLW_PLUGIN_DIR . 'includes/admin/cclw_pro_version.php'; /*renders customize checkout fields page*/
-			 //require_once CCLW_PLUGIN_DIR . 'includes/admin/pro_version.php';
-			
-			 
+					 
 		} 
 		
 		/**A left bar menu for plugin setting pages on hook admin_menu**/

@@ -1,18 +1,18 @@
 <?php 
 /*function is called under admin submenu*/
 function cclw_render_advance_settings_page() {
-    ?>
-    <div class="wrap cclw_form_settings_wrap advance_settings acc_design">
-        <h1>Advance Settings</h1>
-        <form method="post" action="options.php">
-            <?php
-            settings_fields('cclw_advance_settings_group');
-            do_settings_sections('cclw_advance_settings');
-            submit_button();
-            ?>
-        </form>
-    </div>
-    <?php
+?>
+<div class="wrap cclw_form_settings_wrap advance_settings acc_design">
+	<h1>Advance Settings</h1>
+	<form method="post" action="options.php">
+		<?php
+		settings_fields('cclw_advance_settings_group');
+		do_settings_sections('cclw_advance_settings');
+		submit_button();
+		?>
+	</form>
+</div>
+<?php
 }
 /*functions to every field*/
 //Header section

@@ -4,69 +4,64 @@ Tags: checkout,direct checkout,woocommerce checkout,one page checkout,single pag
 Requires at least: 4.5
 Tested up to: 6.8
 Requires PHP: 5.6
-Stable tag: 4.1.2
+Stable tag: 4.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-one page checkout and layouts Improves checkout experience to make your customers to purchase at same page combining cart and checkout page.
-
-
 == Description ==
 
-One Page Checkout and Layouts simplifies the checkout process. It combines all the features of cart and checkout on one single page.Above all user can change quantity and remove products at same page using ajax.
-As a result it helps to merge the cart page and checkout page and gives users a faster checkout experience, with less interruption and more happy customers for your online business.
+One Page Checkout and Layouts streamlines the entire checkout process by combining the cart and checkout into a single page. Customers can easily update product quantities or remove items instantly using AJAX, without page reloads. By merging the cart and checkout, your store delivers a faster, smoother shopping experience with fewer interruptions—resulting in happier customers and higher conversion rates for your online business.
 
-### Try Pro Version
+### Quick Links
 
 [Buy Here](https://blueplugins.com/product/woocommerce-one-page-checkout-and-layouts-pro/) | [Read Documentation](https://docs.blueplugins.com/docs/woocommerce-one-page-checkout-and-layouts-pro/installation/)
 
-Choose from predefined layouts and customize the design from color tab.
+== Features of One Page Checkout and Layouts for WooCommerce ==
 
-### Features Of  One Page Checkout and Layouts for Woocommerce
+= Fast and Intuitive One Page Checkout =
+Simplify the entire shopping experience by merging the cart and checkout into a single page. Customers can complete their purchase quickly without navigating multiple steps, resulting in higher conversions.
 
-<ul>
-    <li>Fast and intuitive one page checkout</li>
-	<li>Skip Cart and redirect to Checkout </li>
- 	<li>Change Quatity on same page</li>
- 	<li>Ajax supported all sections</li>
- 	<li>Predefined Layouts </li>
- 	<li>Mobile Friendly</li>
-</ul>
+= Skip Cart and Redirect to Checkout =
+Eliminate unnecessary steps by skipping the cart page entirely. Shoppers are redirected straight to checkout, making the buying process faster and smoother.
+
+= Change Quantity on the Same Page =
+Customers can easily update product quantities or remove items directly from the checkout page—no need to go back and forth between pages.
+
+= AJAX-Supported All Sections =
+Enjoy a seamless, reload-free experience. With AJAX, every update (like changing quantities or removing products) happens instantly without refreshing the page.
+
+= Predefined Layouts =
+Choose from ready-made layouts designed to fit different store styles. Customize your checkout look and feel effortlessly.
+
+= 100% Mobile Friendly =
+Deliver a smooth checkout experience on any device. Fully responsive layouts ensure your customers can shop and pay easily from desktops, tablets, or smartphones.
+
+= Customize Billing & Shipping Fields =
+Add/remove fields, set required or optional fields, and update placeholder text to tailor checkout forms.Collect only required information from cleints .
 
 ### A video guide
 https://youtu.be/VIwovIySKoM
 
-### Features Of Pro Version
-Pro version removes the restrictions of manually customizing the checkout page. It add-ons 3 more layouts and provides you a customizer option to completely change the look and feel of checkout page.
-<ul>
-    <li>Multi Step layout , Accordian Layout ,Customizer Panel</li>
- 	<li>Order table 2 Design</li>
-	<li>Hide order notes</li>
-	<li>Show/hide Billing And shipping Fields</li>
-	<li>Change labels,Placeholders and Required sections for Billing sections</li>
- 	<li>Best for Digital products</li>
- 	<li>Custom design your checkout.</li>
-    <li>Color Panel for Tabs</li>	
-</ul>
 
-Choose from predefined layouts and customize the design from color tab.
+== Features of One Page Checkout and Layouts for WooCommerce Pro ==
 
-In short it reduces cart abandonment .Customers can view products and their description ,and can apply coupon without leaving the page and waiting for a new page to load.Also there is a section to login for previous customers.All notices appear at the top of the page.
+= 6 Predefined Layout =
+Transform your checkout into a multi-step or accordion-style layout for a smoother, step-by-step shopping experience.
 
-To sum up  One Page Checkout and Layouts has  below features:
+= Skip Cart and Redirect to Checkout =
+Eliminate unnecessary steps by skipping the cart page entirely. Shoppers are redirected straight to checkout, making the buying process faster and smoother.
 
-<h3>Single Page Checkout</h3>
-This plugin helps you to sum up all the features of cart and checkout at one page.So No users need to refresh the page for searching ,quantity change or payment.Everthing is done on same page using ajax. A MultiStep or section layout on this page make every section visible in single page checkout to let the customers engaged.
+= Change Quantity on the Same Page =
+Customers can easily update product quantities or remove items directly from the checkout page—no need to go back and forth between pages.
 
-<h3>Skip Cart Page And Quick Checkout</h3>
-The whole idea working upon decreasing the lengthy checkout process .For this one page checkout skips the cart page and redirect users for direct checkout page.
+= Add Custom fields =
+Option to add custom fields for custom store needs.
 
-<h3>Change Quantity and Remove Products</h3>
-This feature let the users to review their order right before payment.So they can change quantity or remove products as per their requirements.
+= Customize Billing & Shipping Fields =
+Add/remove fields, set required or optional fields, and update placeholder text to tailor checkout forms.Collect only required information from cleints .
 
-<h3>Color Panel</h3>
-Customize color of your checkout page headers,sections and button using global settings panel.
-
+= Customize style =
+Endless control over checkout page design for selective section to match with themes design .
 
 == Installation ==
 Open WordPress admin panel and go to Plugins >> Add New and Search “One Page Checkout and Layouts” at here, You will find our plugin “by  coolcoders”. Click on Install button in front of this and then activate the plugin.
@@ -82,6 +77,10 @@ To go to setting panel in backend follow Dashboard->Checkout layouts.
 
 
 == Changelog == 
+<h2> Version 4.1.3| 22 sep 2025</h2>
+<pre>
+ Improvement: Error with white space .
+</pre>
 <h2> Version 4.1.2| 11 aug 2025</h2>
 <pre>
  Improvement: Error with woocomerce tabs removed .
