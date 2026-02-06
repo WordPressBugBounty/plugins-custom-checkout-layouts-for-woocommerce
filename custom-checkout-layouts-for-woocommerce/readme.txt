@@ -4,7 +4,7 @@ Tags: checkout,direct checkout,woocommerce checkout,one page checkout,single pag
 Requires at least: 4.5
 Tested up to: 6.8
 Requires PHP: 5.6
-Stable tag: 4.1.3
+Stable tag: 4.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,6 +77,10 @@ To go to setting panel in backend follow Dashboard->Checkout layouts.
 
 
 == Changelog == 
+<h2> Version 4.1.4| 30 Dec 2025</h2>
+<pre>
+ Improvement: update version with wordpress .
+</pre>
 <h2> Version 4.1.3| 22 sep 2025</h2>
 <pre>
  Improvement: Error with white space .
